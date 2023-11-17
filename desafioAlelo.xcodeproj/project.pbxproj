@@ -34,6 +34,9 @@
 		C179A5502B07DF1200E41DDE /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A54F2B07DF1200E41DDE /* CartViewModel.swift */; };
 		C179A5522B07DF3400E41DDE /* CustomBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A5512B07DF3400E41DDE /* CustomBackButton.swift */; };
 		C179A5542B07DF5400E41DDE /* HomeProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A5532B07DF5400E41DDE /* HomeProductDetails.swift */; };
+		C179A5582B07DF8E00E41DDE /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A5572B07DF8E00E41DDE /* CoordinatorView.swift */; };
+		C179A55B2B07DF9E00E41DDE /* CoordinatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A55A2B07DF9E00E41DDE /* CoordinatorViewModel.swift */; };
+		C179A55E2B07DFAB00E41DDE /* CoordinatorUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A55D2B07DFAB00E41DDE /* CoordinatorUIState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +87,9 @@
 		C179A54F2B07DF1200E41DDE /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
 		C179A5512B07DF3400E41DDE /* CustomBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButton.swift; sourceTree = "<group>"; };
 		C179A5532B07DF5400E41DDE /* HomeProductDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProductDetails.swift; sourceTree = "<group>"; };
+		C179A5572B07DF8E00E41DDE /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
+		C179A55A2B07DF9E00E41DDE /* CoordinatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorViewModel.swift; sourceTree = "<group>"; };
+		C179A55D2B07DFAB00E41DDE /* CoordinatorUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorUIState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +177,7 @@
 		C179A5192B07DCF800E41DDE /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				C179A5552B07DF8800E41DDE /* Coordinator */,
 				C179A5442B07DED400E41DDE /* Cart */,
 				C179A52E2B07DD8A00E41DDE /* Core */,
 				C179A51A2B07DD0A00E41DDE /* Home */,
@@ -331,6 +338,40 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		C179A5552B07DF8800E41DDE /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				C179A55C2B07DFA500E41DDE /* Model */,
+				C179A5592B07DF9600E41DDE /* ViewModel */,
+				C179A5562B07DF8900E41DDE /* View */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		C179A5562B07DF8900E41DDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C179A5572B07DF8E00E41DDE /* CoordinatorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C179A5592B07DF9600E41DDE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C179A55A2B07DF9E00E41DDE /* CoordinatorViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C179A55C2B07DFA500E41DDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C179A55D2B07DFAB00E41DDE /* CoordinatorUIState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -471,8 +512,10 @@
 				C179A51D2B07DD1300E41DDE /* HomeView.swift in Sources */,
 				C179A5342B07DDA700E41DDE /* WebserviceErrors.swift in Sources */,
 				C179A4F22B07DB7600E41DDE /* ContentView.swift in Sources */,
+				C179A5582B07DF8E00E41DDE /* CoordinatorView.swift in Sources */,
 				C179A4F02B07DB7600E41DDE /* desafioAleloApp.swift in Sources */,
 				C179A53E2B07DE1B00E41DDE /* Urls.swift in Sources */,
+				C179A55E2B07DFAB00E41DDE /* CoordinatorUIState.swift in Sources */,
 				C179A5272B07DD5400E41DDE /* HomeFilters.swift in Sources */,
 				C179A5362B07DDB700E41DDE /* CustomAsyncImage.swift in Sources */,
 				C179A5402B07DE3100E41DDE /* CustomStepper.swift in Sources */,
@@ -481,6 +524,7 @@
 				C179A5502B07DF1200E41DDE /* CartViewModel.swift in Sources */,
 				C179A53C2B07DE1300E41DDE /* Constants.swift in Sources */,
 				C179A5522B07DF3400E41DDE /* CustomBackButton.swift in Sources */,
+				C179A55B2B07DF9E00E41DDE /* CoordinatorViewModel.swift in Sources */,
 				C179A5322B07DD9D00E41DDE /* Webservice.swift in Sources */,
 				C179A5252B07DD4800E41DDE /* Product.swift in Sources */,
 			);
