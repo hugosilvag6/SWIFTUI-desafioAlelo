@@ -14,6 +14,20 @@
 		C179A5012B07DB7700E41DDE /* desafioAleloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A5002B07DB7700E41DDE /* desafioAleloTests.swift */; };
 		C179A50B2B07DB7700E41DDE /* desafioAleloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A50A2B07DB7700E41DDE /* desafioAleloUITests.swift */; };
 		C179A50D2B07DB7700E41DDE /* desafioAleloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A50C2B07DB7700E41DDE /* desafioAleloUITestsLaunchTests.swift */; };
+		C179A51D2B07DD1300E41DDE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A51C2B07DD1300E41DDE /* HomeView.swift */; };
+		C179A5202B07DD2B00E41DDE /* HomeProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A51F2B07DD2B00E41DDE /* HomeProductCard.swift */; };
+		C179A5252B07DD4800E41DDE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A5242B07DD4800E41DDE /* Product.swift */; };
+		C179A5272B07DD5400E41DDE /* HomeFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A5262B07DD5400E41DDE /* HomeFilters.swift */; };
+		C179A52A2B07DD6100E41DDE /* HomeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A5292B07DD6100E41DDE /* HomeManager.swift */; };
+		C179A52D2B07DD7700E41DDE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A52C2B07DD7700E41DDE /* HomeViewModel.swift */; };
+		C179A5322B07DD9D00E41DDE /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A5312B07DD9D00E41DDE /* Webservice.swift */; };
+		C179A5342B07DDA700E41DDE /* WebserviceErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A5332B07DDA700E41DDE /* WebserviceErrors.swift */; };
+		C179A5362B07DDB700E41DDE /* CustomAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A5352B07DDB700E41DDE /* CustomAsyncImage.swift */; };
+		C179A5392B07DDFD00E41DDE /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A5382B07DDFD00E41DDE /* ScreenSize.swift */; };
+		C179A53C2B07DE1300E41DDE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A53B2B07DE1300E41DDE /* Constants.swift */; };
+		C179A53E2B07DE1B00E41DDE /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A53D2B07DE1B00E41DDE /* Urls.swift */; };
+		C179A5402B07DE3100E41DDE /* CustomStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A53F2B07DE3100E41DDE /* CustomStepper.swift */; };
+		C179A5432B07DE7F00E41DDE /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179A5422B07DE7F00E41DDE /* View+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +58,20 @@
 		C179A5062B07DB7700E41DDE /* desafioAleloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = desafioAleloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C179A50A2B07DB7700E41DDE /* desafioAleloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desafioAleloUITests.swift; sourceTree = "<group>"; };
 		C179A50C2B07DB7700E41DDE /* desafioAleloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desafioAleloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C179A51C2B07DD1300E41DDE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C179A51F2B07DD2B00E41DDE /* HomeProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProductCard.swift; sourceTree = "<group>"; };
+		C179A5242B07DD4800E41DDE /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C179A5262B07DD5400E41DDE /* HomeFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFilters.swift; sourceTree = "<group>"; };
+		C179A5292B07DD6100E41DDE /* HomeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeManager.swift; sourceTree = "<group>"; };
+		C179A52C2B07DD7700E41DDE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C179A5312B07DD9D00E41DDE /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		C179A5332B07DDA700E41DDE /* WebserviceErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebserviceErrors.swift; sourceTree = "<group>"; };
+		C179A5352B07DDB700E41DDE /* CustomAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAsyncImage.swift; sourceTree = "<group>"; };
+		C179A5382B07DDFD00E41DDE /* ScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
+		C179A53B2B07DE1300E41DDE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C179A53D2B07DE1B00E41DDE /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		C179A53F2B07DE3100E41DDE /* CustomStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepper.swift; sourceTree = "<group>"; };
+		C179A5422B07DE7F00E41DDE /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +102,7 @@
 		C179A4E32B07DB7600E41DDE = {
 			isa = PBXGroup;
 			children = (
+				C179A5192B07DCF800E41DDE /* Source */,
 				C179A4EE2B07DB7600E41DDE /* desafioAlelo */,
 				C179A4FF2B07DB7700E41DDE /* desafioAleloTests */,
 				C179A5092B07DB7700E41DDE /* desafioAleloUITests */,
@@ -125,6 +154,123 @@
 				C179A50C2B07DB7700E41DDE /* desafioAleloUITestsLaunchTests.swift */,
 			);
 			path = desafioAleloUITests;
+			sourceTree = "<group>";
+		};
+		C179A5192B07DCF800E41DDE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C179A52E2B07DD8A00E41DDE /* Core */,
+				C179A51A2B07DD0A00E41DDE /* Home */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C179A51A2B07DD0A00E41DDE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C179A52B2B07DD6B00E41DDE /* ViewModel */,
+				C179A5282B07DD5D00E41DDE /* Manager */,
+				C179A5232B07DD4300E41DDE /* Model */,
+				C179A51B2B07DD0E00E41DDE /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C179A51B2B07DD0E00E41DDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C179A51E2B07DD2100E41DDE /* Components */,
+				C179A51C2B07DD1300E41DDE /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C179A51E2B07DD2100E41DDE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C179A51F2B07DD2B00E41DDE /* HomeProductCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C179A5232B07DD4300E41DDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C179A5242B07DD4800E41DDE /* Product.swift */,
+				C179A5262B07DD5400E41DDE /* HomeFilters.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C179A5282B07DD5D00E41DDE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C179A5292B07DD6100E41DDE /* HomeManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		C179A52B2B07DD6B00E41DDE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C179A52C2B07DD7700E41DDE /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C179A52E2B07DD8A00E41DDE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C179A5412B07DE7900E41DDE /* Extensions */,
+				C179A53A2B07DE0D00E41DDE /* Constants */,
+				C179A5372B07DDF600E41DDE /* Helpers */,
+				C179A5302B07DD8F00E41DDE /* Components */,
+				C179A52F2B07DD8B00E41DDE /* Webservice */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C179A52F2B07DD8B00E41DDE /* Webservice */ = {
+			isa = PBXGroup;
+			children = (
+				C179A5312B07DD9D00E41DDE /* Webservice.swift */,
+				C179A5332B07DDA700E41DDE /* WebserviceErrors.swift */,
+			);
+			path = Webservice;
+			sourceTree = "<group>";
+		};
+		C179A5302B07DD8F00E41DDE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C179A5352B07DDB700E41DDE /* CustomAsyncImage.swift */,
+				C179A53F2B07DE3100E41DDE /* CustomStepper.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C179A5372B07DDF600E41DDE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C179A5382B07DDFD00E41DDE /* ScreenSize.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C179A53A2B07DE0D00E41DDE /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C179A53B2B07DE1300E41DDE /* Constants.swift */,
+				C179A53D2B07DE1B00E41DDE /* Urls.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C179A5412B07DE7900E41DDE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C179A5422B07DE7F00E41DDE /* View+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +403,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C179A5392B07DDFD00E41DDE /* ScreenSize.swift in Sources */,
+				C179A52A2B07DD6100E41DDE /* HomeManager.swift in Sources */,
+				C179A52D2B07DD7700E41DDE /* HomeViewModel.swift in Sources */,
+				C179A5202B07DD2B00E41DDE /* HomeProductCard.swift in Sources */,
+				C179A51D2B07DD1300E41DDE /* HomeView.swift in Sources */,
+				C179A5342B07DDA700E41DDE /* WebserviceErrors.swift in Sources */,
 				C179A4F22B07DB7600E41DDE /* ContentView.swift in Sources */,
 				C179A4F02B07DB7600E41DDE /* desafioAleloApp.swift in Sources */,
+				C179A53E2B07DE1B00E41DDE /* Urls.swift in Sources */,
+				C179A5272B07DD5400E41DDE /* HomeFilters.swift in Sources */,
+				C179A5362B07DDB700E41DDE /* CustomAsyncImage.swift in Sources */,
+				C179A5402B07DE3100E41DDE /* CustomStepper.swift in Sources */,
+				C179A5432B07DE7F00E41DDE /* View+.swift in Sources */,
+				C179A53C2B07DE1300E41DDE /* Constants.swift in Sources */,
+				C179A5322B07DD9D00E41DDE /* Webservice.swift in Sources */,
+				C179A5252B07DD4800E41DDE /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
