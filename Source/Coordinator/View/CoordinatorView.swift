@@ -14,7 +14,7 @@ struct CoordinatorView: View {
         GeometryReader { geo in
             NavigationView {
                 switch viewModel.uiState {
-                case .splash: Spacer()
+                case .splash: SplashView()
                 case .home: HomeView()
                 }
             }
