@@ -7,7 +7,11 @@
 
 import Foundation
 
-struct CartItem: Identifiable {
+struct CartItem: Identifiable, Equatable {
+    static func == (lhs: CartItem, rhs: CartItem) -> Bool {
+        return lhs.id == rhs.id
+    }
+    
     var id = UUID().uuidString
     var product: Product
     var amount: Int
@@ -24,7 +28,7 @@ let MOCK_CART_PRODUCTS = [
                                 ProductSize(available: false, size: "PP", sku: "5749_341_0_PP"),
                                 ProductSize(available: true, size: "P", sku: "5749_341_0_P")
                               ]
-                             ), amount: 2, size: "PP"),
+                             ), amount: 1, size: "PP"),
     CartItem(product: Product(name: "T-SHIRT LEATHER DULL",
                               image: "",
                               regular_price: "R$ 139,90",

@@ -16,13 +16,13 @@ class CartViewModel: ObservableObject {
 
 extension CartViewModel {
     func addProduct(item: CartItem) {
-        if !products.contains(where: { $0.product.id == item.product.id }) {
+        if !products.contains(where: { $0 == item }) {
             products.append(item)
         }
     }
     
     func removeProduct(item: CartItem) {
-        products.removeAll(where: { $0.product.id == item.product.id })
+        products.removeAll(where: { $0 == item })
     }
     
     func getTotalValue() -> String {
