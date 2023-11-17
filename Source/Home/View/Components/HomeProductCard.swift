@@ -13,7 +13,7 @@ struct HomeProductCard: View {
     
     var body: some View {
         NavigationLink {
-           Text("product")
+            HomeProductDetails(product: product)
         } label: {
             VStack {
                 CustomAsyncImage(product: product, size: screenSize.width * 0.5)

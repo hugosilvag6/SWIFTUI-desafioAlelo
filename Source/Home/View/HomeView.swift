@@ -69,7 +69,7 @@ extension HomeView {
     }
     var cartIcon: some View {
         NavigationLink {
-            Text("cart")
+            CartView()
         } label: {
             Image(systemName: "cart")
                 .foregroundStyle(Color.black.opacity(0.5))
